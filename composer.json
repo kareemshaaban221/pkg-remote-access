@@ -19,5 +19,13 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^11.2"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/kareemshaaban221/pkg-remote-access"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
