@@ -1,0 +1,23 @@
+{
+    "name": "kareem/remote-access-service",
+    "description": "This package simplifies any remote access calls (like http requests) and encapsulates GuzzleHttp package (and more) to make the process of sending requests is more straight forward and make use of service design pattern.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Kareem\\Http\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kareemshaaban221",
+            "email": "kareemshaaban221@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/http-message": "^2.0",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.2"
+    }
+}
